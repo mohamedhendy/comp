@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        img{
+            width: 100%;
+            height:100%;
+        }
+
+    </style>
+</head>
+<body>
+    <div>
+        
+        <a id="aa" href="https://i-t-c.sa/">
+            <!--   الصورة هنا برابطها الاصلي src  غير-->
+    <img src="https://1.bp.blogspot.com/-hhklVmUckbc/Xsno3NMZMSI/AAAAAAAAASw/2ABG7s-LnhkKqcbOKQ0ilvurWgYIitKGgCLcBGAsYHQ/s320/prnt.png" id="img1" >
+</a>
+</div>
+<script >
+    if( screen.width < 1055){
+        document.getElementById('img1').style.height = screen.height + "px";
+        document.getElementById('img1').style.width = screen.width + "px";
+    }
+    function test(){
+  document.getElementById('aa').click();
+    
+    
+}
+setTimeout(test,4000);
+
+</script>
+</body>
+</html>
